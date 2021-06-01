@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+    font-family: lato;
+    margin: 0;
+    padding: 0;
+}
+
+#head_img {
+    background-image: url(img/bg-masthead.jpg);
+    background-position: center;
+}
+
+.am_para_light {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+
+@media (min-width:768px) and (max-width:1024px) {
+    /* Orders */
+    .am_orderii {
+        order: 2;
+    }
+    
+    .am_orderi {
+        order: 1;
+    }
+    .am_order3 {
+        order: 3;
+    }
+    .am_order4 {
+        order: 4;
+    }
+    .am_order5 {
+        order:5;
+    }
+    .am_order6 {
+        order: 6;
+    }
+    .am_tab_pad
+    {
+        padding: 50px 0px 50px 0px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .am_head {
+        font-size: 2rem;
+       padding: 50px 0px 050px 0px !important;
+        margin: 0px !important;
+    }
+    .am_head2 {
+        font-size: 2rem;
+        padding: 40px 0px 40px 0px !important;
+        margin: 0px !important;
+        width: 100% !important;
+    }
+    
+    .am-sec-head {
+        font-size: 1.5rem;
+         padding-top: 20px;
+       
+    }
+    
+    .am_input {
+        display: block !important;
+        width: 100% !important;
+        margin: 10px 0px !important;
+    }
+    .am_head_btn {
+        margin-left: 0px !important;
+        width: 100%;
+    }
+    .am_input_div {
+        display: list-item !important;
+        list-style: none;
+    }
+    
+    .am_2sec {
+        padding-top: 50px;
+        /* order: 1; */
+    }
+    .am_testimonials {
+        padding-top: 50px;
+    }
+    .am_sec_head {
+        padding-left: 20px !important;
+        padding-right: 0px !important;
+        margin: 0px !important;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .am_para {
+        padding: 20px !important;
+        margin: 0px !important;
+    }
+    .am_social_link {
+        justify-content: center !important;
+        padding-top: 20px;
+    }
+    .am_anchors {
+        margin: 0px !important;
+        padding: 5px 11px;
+    }
+    .am_copyright {
+        padding-bottom: 0px;
+        padding-top: 20px !important;
+        text-align: center;
+    }
+    /* Orders */
+    .am_orderii {
+        order: 2;
+    }
+    
+    .am_orderi {
+        order: 1;
+    }
+    .am_order3 {
+        order: 3;
+    }
+    .am_order4 {
+        order: 4;
+    }
+    .am_order5 {
+        order:5;
+    }
+    .am_order6 {
+        order: 6;
+    }
+    .am_padding0
+    {
+        padding: 0px !important;
+    }
+    .am_padding-top0
+    {
+        padding-top: 0px !important;
+    }
+    .am_pad_bottom
+    {
+        padding-bottom: 0px !important;
+    }
+    
+}
